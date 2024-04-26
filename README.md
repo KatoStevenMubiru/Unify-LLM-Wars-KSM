@@ -30,15 +30,23 @@ Navigate to http://localhost:8501 in your web browser to view the application.
 Users can configure the following settings through the sidebar:
 
 API Key: Enter your Unify API key.
+
 LLM1 Endpoint: Set the endpoint for the first LLM.
+
 LLM2 Endpoint: Set the endpoint for the second LLM.
+
 Judge Endpoint: Set the endpoint for the judge LLM.
+
 How It Works
 
 Round Initiation: LLM1 starts by generating a random question.
+
 Response and Evaluation: LLM2 responds to the question, LLM1 evaluates LLM2's response, and then provides its own answer.
+
 Judging: A judge LLM evaluates the responses from both LLM1 and LLM2 and declares a winner based on predefined criteria.
+
 Next Round: Users can proceed to the next round or end the battle.
+
 Contributing
 
 Contributions to LLM Wars are welcome! Please feel free to fork the repository, make changes, and submit pull requests. You can also open issues to report bugs or suggest enhancements.
